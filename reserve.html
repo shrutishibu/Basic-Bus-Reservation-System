@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book seats</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://cdn.vectorstock.com/i/preview-1x/99/57/travel-bus-logo-template-vector-46769957.jpg" height="70" width="100" alt="logo">
+        <nav style="text-align: right;">
+             |
+            <a href="index.html">Home</a>
+             | 
+            <a href="reserve.html">Reservation</a>
+             |
+            <a href="about.html">About</a>
+             |
+            <a href="contact.html">Contact</a>
+             |
+        </nav>
+    </header>
+    <div class="vertical-line"></div>
+    <p>
+    <form action="./success.html">
+        <div class="wrapper">
+            <div class="left-side">
+                <br><br>
+                <center><b class="feedback">Personal information</b><br><br></center>
+                <p class="center"><br><br>
+                Please enter your details:<br><br>
+                <b>Name:</b>
+                <textarea id="name" name="name" placeholder="Your name"></textarea>
+                <br><br>
+                <b>Gender: </b> 
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+                <br><br>
+                <b>DOB: </b>
+                <input type="date" id="dob" name="dob">
+                <br><br>
+                <b>From location: </b>
+                <select name="from" id="from">
+                    <option value="Delhi">Delhi</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Bombay">Bombay</option>
+                    <option value="Pune">Pune</option>
+                </select>
+                <br><br>
+                <b>To location: </b>
+                <select name="from" id="from">
+                    <option value="Delhi">Delhi</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Bombay">Bombay</option>
+                    <option value="Pune">Pune</option>
+                </select>
+                </p>
+                <br><br>
+            </div>
+            <div class="right-side">
+                <p class="center">
+                    <b class="feedback">Select seats</b>
+                    <br><br>
+                    <div class="bus">
+                        <div class="col">
+                            <div class="seat" tabindex="0">1</div>
+                            <div class="seat" tabindex="0">5</div>
+                            <div class="seat" tabindex="0">9</div>
+                            <div class="seat" tabindex="0">13</div>
+                            <div class="seat" tabindex="0">17</div>
+                            <div class="seat" tabindex="0">21</div>
+                            <div class="seat" tabindex="0">25</div>
+                            <div class="seat" tabindex="0">29</div>
+                            <div class="seat" tabindex="0">33</div>
+                            <div class="seat" tabindex="0">37</div>
+                        </div>
+                    
+                        <div class="col">
+                            <div class="seat" tabindex="0">2</div>
+                            <div class="seat" tabindex="0">6</div>
+                            <div class="seat" tabindex="0">10</div>
+                            <div class="seat" tabindex="0">14</div>
+                            <div class="seat" tabindex="0">18</div>
+                            <div class="seat" tabindex="0">22</div>
+                            <div class="seat" tabindex="0">26</div>
+                            <div class="seat" tabindex="0">30</div>
+                            <div class="seat" tabindex="0">34</div>
+                            <div class="seat" tabindex="0">38</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="seat" tabindex="0">3</div>
+                            <div class="seat" tabindex="0">7</div>
+                            <div class="seat" tabindex="0">11</div>
+                            <div class="seat" tabindex="0">15</div>
+                            <div class="seat" tabindex="0">19</div>
+                            <div class="seat" tabindex="0">23</div>
+                            <div class="seat" tabindex="0">27</div>
+                            <div class="seat" tabindex="0">31</div>
+                            <div class="seat" tabindex="0">35</div>
+                            <div class="seat" tabindex="0">39</div>
+                        </div>
+
+                        <div class="col">
+                            <div class="seat" tabindex="0">4</div>
+                            <div class="seat" tabindex="0">8</div>
+                            <div class="seat" tabindex="0">12</div>
+                            <div class="seat" tabindex="0">16</div>
+                            <div class="seat" tabindex="0">20</div>
+                            <div class="seat" tabindex="0">24</div>
+                            <div class="seat" tabindex="0">28</div>
+                            <div class="seat" tabindex="0">32</div>
+                            <div class="seat" tabindex="0">36</div>
+                            <div class="seat" tabindex="0">40</div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <p class="center">
+                        <a href="./success.html">
+                            <input type="submit" value="Submit" class="btn-submit">
+                        </a>                        
+                        <input type="reset" value="Reset" class="btn-reset">
+                    </p>        
+                </p>
+            </form>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
